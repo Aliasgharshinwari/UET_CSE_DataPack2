@@ -1,0 +1,27 @@
+CLOs
+1) Utilities, CLI, shell scripting
+2) multi thrading, multi processing
+3) OS Concepts
+	1) Process Scechling
+	2) Memory Managment
+	3) Dead Locks
+	4) Scynchronization
+
+Terminal
+	PID	TTY	Time	CMD
+	
+PID stands for process identification.
+in ps -e command, d stands for dimon. (in old versions it was init, but now it is updated to d e.g (from systeminit to systemd).
+tty stands for terminal type.
+bash or zsh known as shell which command line interpretor (CLI).
+
+Directiory Structure:
+	/ root
+
+in linux, everything is a file.
+adressing is of two types 1) relative addressing 2) absolute addressing
+every directory tou make, two directories also made by default by the name of "." and "..", you can list them by ls-a command.
+touch to create the file not openning it.
+vim to edit the file
+gedit to edit the file
+cat for view contents

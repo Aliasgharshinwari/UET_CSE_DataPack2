@@ -1,0 +1,11 @@
+First, in the main function, an integer array called "num_ar" is declared and initialized with ten integers in descending order. Then, the "_sort" function is called, passing the "num_ar" array and its size (10) as arguments.
+
+In the "_sort" function, a temporary integer variable "temp" is declared. Then, two for loops are used to iterate through the array. The outer loop iterates through each element of the array from the first to the second last element, while the inner loop iterates through all the elements after the current element being considered in the outer loop.
+
+For example, in the first iteration of the outer loop, the element at the first index of the array is compared with all the elements after it, i.e., elements at index 2 to 9 in the inner loop. If the element at the first index is greater than any of these elements, their values are swapped.
+
+After the inner loop has completed its iterations, the smallest element among the elements after the current element in the outer loop is found and placed in the current position in the array. This process is repeated for each subsequent element in the array, with the inner loop starting from the element after the current element of the outer loop.
+
+The result of this algorithm is that the smallest element of the array is placed at the first position after the first iteration of the outer loop. In the second iteration, the next smallest element is placed in the second position, and so on. After n-1 iterations, the array is completely sorted in ascending order.
+
+Finally, in the main function, the sorted array is printed to the

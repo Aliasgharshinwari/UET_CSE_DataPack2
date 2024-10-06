@@ -1,0 +1,24 @@
+create a file
+ss1.sh
+
+ls
+ps -e(shows all the processes, 1-init/systemd runs firstly)
+who
+pwd
+
+pstree(shows the tree of process)
+/(shows absolute address)
+shell search for files in bin.
+
+PART 2
+User Input and Output in a shell script
+
+Variables:
+To use variable write $ with it.
+read command is used to get value from user($ symbol is not used during initialization)
+echo command is used to display value
+
+3 types of variables
+User defined
+Environment
+Predefined
