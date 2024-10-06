@@ -1,0 +1,28 @@
+OS Lab 4
+Introduction to C langugage and GCC Compiler
+INPUT: scanf()----->takes two arguments
+d---> data type specifier--->int
+d:int
+c:char
+s:string
+f:float
+x:unsigned int
+p:address in hex
+
+scanf("%d",&x)
+
+OUTPUT:
+
+printf("Hello World\n")
+printf("The value of x = %d, Hello\n", x)
+
+
+1)EDITOR
+vim
+gedit
+
+2)COMPILATION
+gcc source.c -o destination.o
+(.o file is extension for executable)
+
+3)EXECUTE
