@@ -1,5 +1,0 @@
-BasedOnStyle: Chromium
-ColumnLimit: 120
-IndentWidth: 2
-AllowShortLoopsOnASingleLine: true
-AllowShortIfStatementsOnASingleLine: AllIfsAndElse

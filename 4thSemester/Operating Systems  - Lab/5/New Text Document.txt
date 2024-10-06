@@ -1,1 +1,0 @@
-system call-------->function to invoke kernel mode
