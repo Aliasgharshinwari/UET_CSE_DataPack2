@@ -1,7 +1,7 @@
 import socket
 import threading
 import wikipedia
-#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
+
 IP = socket.gethostbyname(socket.gethostname())
 PORT = 5566
 ADDR = (IP, PORT)
